@@ -1,0 +1,70 @@
+.logo{
+    margin: 5% 70% 5% 2%;
+}
+
+.barra{
+    margin-left: 2%;
+    width: 25vw;
+}
+
+.lupa{
+    margin-left: 2%;
+    background-color: aliceblue;
+    margin-right: 96%;
+    padding: 2px;
+    border: solid 1.5px var(--ColorGrisOscuro);
+    width: 2vw;
+}
+
+header{
+    background-color: var(--ColorAmarillo);
+}
+.menu-burguer{
+    text-align: center;
+    color:aliceblue;
+    background-color: blue;
+    margin: 0 47%;
+}
+
+.h4{
+    text-align: center;
+}
+
+.h3{
+    font-size: 24px;
+}
+
+header ul{
+    padding-left: 0%;
+}
+
+.carrousel img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.vistas img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ofertas img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.copy{
+    text-align: left;
+    color: var(--ColorGrisOscuro);
+}
+.icon-footer{
+    color: var(--ColorCeleste);
+}
