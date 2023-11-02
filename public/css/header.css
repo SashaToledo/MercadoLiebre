@@ -1,0 +1,39 @@
+.logo{
+    margin: 5% 70% 5% 2%;
+}
+
+.barra{
+    margin-left: 2%;
+    width: 25vw;
+}
+
+.lupa{
+    margin-left: 2%;
+    background-color: aliceblue;
+    margin-right: 96%;
+    padding: 2px;
+    border: solid 1.5px var(--ColorGrisOscuro);
+    width: 2vw;
+}
+
+header{
+    background-color: var(--ColorAmarillo);
+}
+.menu-burguer{
+    text-align: center;
+    color:aliceblue;
+    background-color: blue;
+    width: 20%;
+    border: solid 2px blue;
+    border-radius: 15%;
+    margin-left: 35%;
+    
+}
+
+.h4{
+    text-align: center;
+}
+
+header ul{
+    padding-left: 0%;
+}

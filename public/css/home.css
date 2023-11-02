@@ -1,65 +1,56 @@
-.logo{
-    margin: 5% 70% 5% 2%;
+.banner img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
-.barra{
-    margin-left: 2%;
-    width: 25vw;
-}
-
-.lupa{
-    margin-left: 2%;
-    background-color: aliceblue;
-    margin-right: 96%;
-    padding: 2px;
-    border: solid 1.5px var(--ColorGrisOscuro);
-    width: 2vw;
-}
-
-header{
-    background-color: var(--ColorAmarillo);
-}
-.menu-burguer{
-    text-align: center;
-    color:aliceblue;
-    background-color: blue;
-    margin: 0 47%;
-}
-
-.h4{
-    text-align: center;
+.main{
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .h3{
+    text-align: center;
     font-size: 24px;
+    color: #7e7b7b;
 }
 
-header ul{
-    padding-left: 0%;
-}
-
-.carrousel img{
-    padding: 0;
-    margin: 0;
-    width: 100%;
-}
-
-.vistas img{
+.vistas_img{
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-.ofertas img{
+.icono_envio {
+    color: var(--ColorVerde);
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    position: relative;
+}
+
+.ofertas_img{
     margin: 0;
     padding: 0;
     width: 100%;
+}
+.articles{
+   padding-bottom: 10px;
+   border-top: solid 1px #ebebeb;
+   padding: 15px;
 }
 
 footer {
     text-align: center;
 }
-
 
 .copy{
     text-align: left;
@@ -68,3 +59,31 @@ footer {
 .icon-footer{
     color: var(--ColorCeleste);
 }
+.descuento{
+    color: rgb(46, 187, 46);
+}
+
+@media (max-width: 361px){
+    .header ul{
+        display: none;
+    }
+    .nombre{
+        display: none;
+    }
+}
+
+@media (min-width: 361px){
+    .menu-burguer{
+        display: none;
+    }
+    .articles{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);}
+    
+    .header nav{
+    display: block;}
+}   
+
+@media (min-width: 769px){
+    
+}
+
