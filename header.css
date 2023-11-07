@@ -1,0 +1,77 @@
+
+.logo{
+    display: inline;
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.contenedorDeBarra{
+    display: flex;
+    display: inline;
+    align-items: center;
+    background-color: #ffff; 
+    border: 1px solid #ebebeb;
+    padding: 5px;
+    max-width: 70%; 
+    margin-left: 20px;
+    margin: 0 15px
+}
+
+.barra{
+    display: inline;
+    align-items: center;
+    padding: 5px;
+    max-width: 70%; 
+    margin-left: 10%;
+    margin: 0 15px;
+    flex: 2;
+    border: none;
+    outline: none;
+    padding: 2px; 
+    
+}
+
+
+.lupa{
+    position: absolute;
+    display: inline;
+    margin-left: -11%;
+    margin-right: 15%;
+    padding: 2px;
+    width: 2vw;
+    cursor:pointer;
+}
+
+header{
+    background-color: var(--ColorAmarillo);
+}
+
+.menu-burguer{
+    text-align: center;
+    color:aliceblue;
+    background-color: blue;
+    width: 20%;
+    border: solid 2px blue;
+    border-radius: 15%;
+    margin-left: 35%;
+    
+}
+
+.h4{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header ul{
+    padding-left: 0%;
+}
+
+.ul-uno{
+    display: inline;
+
+}

@@ -1,0 +1,31 @@
+:root{
+--ColorAmarillo: #EAC926;
+--ColorAzul:#03264C;
+--ColorCeleste:#1259c3;
+--ColorGrisOscuro:#666;
+--ColorGrisClaro:#ebebeb;
+--ColorVerde: #39b54a;
+--Fuente:'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--Fuente);
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
