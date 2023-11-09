@@ -1,0 +1,60 @@
+
+.logo{
+    width: 47%;
+}
+
+.iconos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7% 4% 2% 8%;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.barra{
+    position: relative;
+    width: 47%;
+}
+
+.iconos i{
+    position: absolute;
+    border-radius: 20%;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    right: 4px;
+    top: 7px;
+}
+
+header{
+    background-color: var(--ColorAmarillo);
+    width: 100%;
+}
+
+.menu-burguer{
+    text-align: center;
+}
+.menu-burguer i{
+    color: white;
+    background-color: var(--ColorCeleste);
+    font-size: 25px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20%;
+}
+
+.h4{
+    text-align: center;
+}
+
+header ul{
+    padding-left: 0%;
+}
+
+.ul-uno{
+    display: inline;
+
+}
+

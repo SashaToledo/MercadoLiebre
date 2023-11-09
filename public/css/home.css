@@ -12,6 +12,7 @@
     margin-left: 5%;
     display: flex;
     flex-wrap: wrap;
+    bottom: 200%;
     
 }
 
@@ -47,7 +48,7 @@
     border-radius: 50%;   
     position: absolute;
     right:20px;
-    bottom: 75px;
+    bottom: 53px;
 }
 
 .ofertas_img{
@@ -102,14 +103,31 @@ footer {
 
 }
 
-@media (min-width: 361px){
+@media (min-width:361px){
+
+    .header{
+        padding: 0;
+    }
+    .logo{
+        max-width: 15%;
+        left: 30%;
+    }
+    .barra{
+        max-width: 24%;
+    }
+
+    .lupa{
+      position: inherit;
+    }
+    
     .menu-burguer{
         display: none;
     }
+
     .articles{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 47%;
-}
+    }
     .nombre{
         display: block;
         
@@ -119,7 +137,7 @@ footer {
     }
 
     .icono_envio i{
-        bottom: 88px;
+        bottom: 68px;
     }
 }   
 
@@ -129,8 +147,13 @@ footer {
     }
     .articles{
         width: 21.5%;
-        
     }
-    
+    .logo{
+        display: inline;
+        max-width: 20%;
+        height: auto;
+        padding: 11px;
+        margin-top: 10px;
+    }
 }
 
