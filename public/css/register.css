@@ -1,0 +1,57 @@
+body h1{
+    text-align: center;
+}
+.register_form{
+    background-color: var(--ColorGrisClaro);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.register_form input{
+    padding: 2%;
+    margin: 3% 5%;
+    border: none;
+    width: 90%;
+}
+
+.register_form h3{
+    text-align: center;
+}
+
+.register_radio{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 34%;
+    margin-left: 30%;
+    padding: 3%;
+}
+
+.register_checkbox{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    width: 27%;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.register_foto{
+
+}
+
+.register_button{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2%;
+}
+
+.register_enviar{
+    background-color: var(--ColorCeleste);
+    color: white;
+}
+
+.register_borrar{
+    background-color: white;
+}

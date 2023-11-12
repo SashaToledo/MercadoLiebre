@@ -1,0 +1,28 @@
+.login_form{
+    background-color: var(--ColorGrisClaro);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+
+.login_form input{
+    padding: 2%;
+    margin: 3% 5%;
+    border: none;
+    width: 90%;
+}
+
+.login_button{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2%;
+}
+
+.login_enviar{
+    background-color: var(--ColorCeleste);
+    color: white;
+}
+
+.login_borrar{
+    background-color: white;
+}

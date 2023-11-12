@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head class="head">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mercado Liebre</title>
+        <script src="https://kit.fontawesome.com/18ef03eb70.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="todo">
+                <img class="logo" src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre">
+                <input class="barra" type="textarea" placeholder="Buscar productos, marcas">
+                <div class="lupa">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </div>
+            </div>
+            <h4 class="h4"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de credito</h4>
+            <nav>
+                <ul class="ul-uno">
+                    <li>Ofertas</li>
+                    <li>Tiendas Oficiales</li>
+                    <li>Vender</li>
+                    <li>Ayuda</li>
+                </ul>
+            
+            </nav>
+            <nav>
+                <ul class="ul-dos">
+                    <a href="/register">Creá tu cuenta <i class="fa-solid fa-id-card"></i></a>
+                    <a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a>
+                    <li>Mis compras <i class="fa-solid fa-basket-shopping"></i></li>
+                </ul>   
+                
+                <div 
+                    class="menu-burguer"><i class="fas fa-bars" style="font-size:280%;"></i>
+                </div>
+
+            </nav>
+        
+        </header>
+        <nav> <h1>Registrate</h1>
+            <form class="register_form" action="/views/home.html" method="get">
+                    <input class="register_nombre" type="text" name="nombre" placeholder="Nombre y apellido" required>
+                    <input class="register_usuario" type="text" name="usuario" placeholder="Nombre de usuario" required minlength="4" maxlength="8">
+                    <input class="register_email" type="email" name="E-mail" placeholder="E-mail" required>
+                <h3>Fecha de nacimiento</h3>
+                    <input class="register_fecha" type="date" name="fecha" placeholder="Fecha de nacimiento" required>
+                    <input class="register_domicilio" type="text" name="domicilio" placeholder="Domicilio" required>
+                <h3>Perfil del usuario</h3>
+                <div class="register_radio">
+                    <label for="Comprador">Comprador</label>
+                    <input class="register_radio" type="radio" name="perfil-usuario" id="Comprador" required>
+                    <label for="Vendedor">Vendedor</label>
+                    <input class="register_radio" type="radio" name="perfil-usuario" id="Vendedor" required>
+                </div>
+                <h3>Intereses</h3>
+                <div class="register_checkbox">
+                    <label for="Electro">Electro</label>
+                    <input type="checkbox" name="Intereses" id="Electro">
+                    <label for="Moda">Moda</label>
+                    <input type="checkbox" name="Intereses" id="Moda">
+                    <label for="Hogar">Hogar</label>
+                    <input type="checkbox" name="Intereses" id="Hogar">
+                    <label for="Jugueteria">Jugueteria</label>
+                    <input type="checkbox" name="Intereses" id="Jugueteria">
+                    <label for="Vida sana">Vida sana</label>
+                    <input type="checkbox" name="Intereses" id="Vida sana">
+                </div>
+                    <label for="Foto-de-usuario">Foto de usuario</label>
+                    <input class="register_foto" type="file" name="Foto-de-usuario" accept=".jpg, .img">
+                    <input class="register_contraseña" type="password" name="contraseña" placeholder="Elige tu contraseña" required minlength="8" maxlength="12">
+                    <input class="register_contraseña" type="password" name="contraseña" placeholder="Confirma tu contraseña" required minlength="8" maxlength="12"> 
+                <div class="register_button">
+                    <button class="register_enviar" type="submit" >Enviar</button>
+                    <button class="register_borrar" type="reset">Borrar datos</button>
+                </div>
+            </form>
+        </nav>
+        <footer>
+            <section> 
+                    <div 
+                        class="icon-footer"><i class="fa-solid fa-credit-card" style="font-size:300%;"></i>
+                    </div>
+                    <div><h2>Pagá con tarjeta o en efectivo</h2>
+                        <p>Con Mercado Liebre Cash, tenés cuotas <br> sin interés con tarjeta o efectivo en
+                            puntos de <br> pago. ¡Y siempre es seguro!</p> 
+                    </div>
+                
+                        <div 
+                            class="icon-footer"><i class="fa-solid fa-gift" style="font-size:300%;"></i>
+                        </div>
+                    <div><h2>Envío gratis desde $ 2.500</h2>
+                        <p>Solo por estar registrad@ en Mercado Liebre <br> tenés envíos gratis en miles de
+                        productos. Es un <br> beneficio de Mercado Puntos.</p></div>
+                
+                    <div 
+                        class="icon-footer"><i class="fa-solid fa-user-shield" style="font-size:300%;"></i>
+                    </div>
+                    <div><h2>Seguridad de principio a fin</h2>
+                            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, <br>no hay nada que no puedas hacer,
+                            porque estás <br> siempre protegid@.</p>
+                    </div>
+                
+                    <div 
+                        class="copy"><p>Copyright © 1999-2020 MercadoLiebre S.R.L. </p>
+                    </div>
+            </section>
+        </footer>
+    </body>
+</html>

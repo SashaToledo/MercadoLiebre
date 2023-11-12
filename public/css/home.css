@@ -100,6 +100,24 @@ footer {
     .nombre{
         display: none;
     }
+    .barra{
+        left: -2%;
+        padding: 3%;
+        border: solid 1px white;
+        border-radius: 2%;
+    }
+    .lupa{
+        position: absolute;
+        color: var(--ColorGrisOscuro);
+        border-radius: 20%;
+        border: none;
+        background-color: white;
+        font-size: 100%;
+        right: 7%;
+    }
+    .todo{
+        align-items: center;
+    }
 
 }
 
@@ -109,17 +127,33 @@ footer {
         padding: 0;
     }
     .logo{
-        max-width: 15%;
-        left: 30%;
+        max-width: 37%;
+        margin-left: -6%;
+        margin-top: -8%;
     }
+    
     .barra{
-        max-width: 24%;
+        max-width: 40%;
+        margin: auto;
+        margin-bottom: 8%;
+        margin-left: unset;
     }
 
     .lupa{
-      position: inherit;
+        color: black;
+        left: 73%;
+        top: 5%;
+        width: 4%;
+        border: solid 1px black;
+        background-color: white;
     }
-    
+    .lupa i{
+        font-size: 100%;
+    }
+    .todo{
+        flex-direction: row;
+        align-items: stretch;
+    }
     .menu-burguer{
         display: none;
     }
