@@ -9,28 +9,28 @@
     </head>
     <body>
         <header class="header">
-            <div class="todo">
-                <img class="logo" src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre">
-                <input class="barra" type="textarea" placeholder="Buscar productos, marcas">
-                <div class="lupa">
-                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            <div class="header_arriba">
+                <div class="todo">
+                    <img class="logo" src="/img/logo-mercado-liebre.svg" alt="logo mercado liebre">
+                    <div class="caja_barra">
+                        <input class="barra" type="textarea" placeholder="Buscar productos, marcas">
+                    </div>
+                    <div class="lupa">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </div>
                 </div>
+                <h4 class="h4"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de credito</h4>
             </div>
-            <h4 class="h4"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de credito</h4>
-            <nav>
+            <nav class="nav_ul">
                 <ul class="ul-uno">
                     <li>Ofertas</li>
                     <li>Tiendas Oficiales</li>
                     <li>Vender</li>
                     <li>Ayuda</li>
-                </ul>
-            
-            </nav>
-            <nav>
-                <ul class="ul-dos">
-                    <a href="/register">Creá tu cuenta <i class="fa-solid fa-id-card"></i></a>
-                    <a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a>
-                    <li>Mis compras <i class="fa-solid fa-basket-shopping"></i></li>
+        
+                    <li><a href="/register">Creá tu cuenta <i class="fa-solid fa-id-card"></i></a></li>
+                    <li><a href="/login">Ingresá <i class="fa-solid fa-right-to-bracket"></i></a></li>
+                    <li><a>Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
                 </ul>   
                 
                 <div 
@@ -41,7 +41,7 @@
         
         </header>
         <nav> <h1>Registrate</h1>
-            <form class="register_form" action="/views/home.html" method="get">
+            <form class="register_form" action="/" method="get">
                     <input class="register_nombre" type="text" name="nombre" placeholder="Nombre y apellido" required>
                     <input class="register_usuario" type="text" name="usuario" placeholder="Nombre de usuario" required minlength="4" maxlength="8">
                     <input class="register_email" type="email" name="E-mail" placeholder="E-mail" required>

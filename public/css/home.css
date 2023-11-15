@@ -90,84 +90,28 @@ footer {
     width: 70%;
     text-align: center;
     color: rgb(46, 187, 46);
-    
 }
+     
+.nombre{
+        display: none;
+    }
 
 @media (max-width: 361px){
-    .header ul{
-        display: none;
-    }
-    .nombre{
-        display: none;
-    }
-    .barra{
-        left: -2%;
-        padding: 3%;
-        border: solid 1px white;
-        border-radius: 2%;
-    }
-    .lupa{
-        position: absolute;
-        color: var(--ColorGrisOscuro);
-        border-radius: 20%;
-        border: none;
-        background-color: white;
-        font-size: 100%;
-        right: 7%;
-    }
-    .todo{
-        align-items: center;
-    }
+
+   
 
 }
 
 @media (min-width:361px){
 
-    .header{
-        padding: 0;
-    }
-    .logo{
-        max-width: 37%;
-        margin-left: -6%;
-        margin-top: -8%;
-    }
-    
-    .barra{
-        max-width: 40%;
-        margin: auto;
-        margin-bottom: 8%;
-        margin-left: unset;
-    }
-
-    .lupa{
-        color: black;
-        left: 73%;
-        top: 5%;
-        width: 4%;
-        border: solid 1px black;
-        background-color: white;
-    }
-    .lupa i{
-        font-size: 100%;
-    }
-    .todo{
-        flex-direction: row;
-        align-items: stretch;
-    }
-    .menu-burguer{
-        display: none;
-    }
 
     .articles{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 47%;
     }
-    .nombre{
+    .nombre:hover {
         display: block;
         
-    }
-    .header nav{
-    display: block;
     }
 
     .icono_envio i{
@@ -182,12 +126,6 @@ footer {
     .articles{
         width: 21.5%;
     }
-    .logo{
-        display: inline;
-        max-width: 20%;
-        height: auto;
-        padding: 11px;
-        margin-top: 10px;
-    }
+    
 }
 
